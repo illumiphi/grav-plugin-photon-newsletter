@@ -1,0 +1,10 @@
+
+
+<!-- user/plugins/photon-{{ page.template }}/templates/_articles/{{ page.template }}.html.twig -->
+<article class="{{ article.template }}" data-url="{{ article.url }}">
+  {% include "_articles/_block/article_figure.html.twig" with { 'article': article } %}
+  {% include "_articles/_block/article_header.html.twig" with { 'article': article } %}
+  {% include "_articles/_block/article_main.html.twig" with { 'article': article } %}
+  {% include "_articles/_block/article_footer.html.twig" with { 'article': article } %}
+  {% include "_articles/_block/article_gallery.html.twig" with { 'article': article } %}
+</article>
